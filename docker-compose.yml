@@ -5,4 +5,5 @@ services:
     ports:
       - "3000:3000"
     environment:
+      - a
       - NODE_ENV=development
